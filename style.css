@@ -88,7 +88,7 @@
 
 /* break points */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 650px) and (orientation: landscape) {
     .container{
         width: 90%;
         margin: auto;
