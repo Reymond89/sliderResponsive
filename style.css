@@ -93,8 +93,9 @@
         width: 90%;
         margin: auto;
         height: 100%;
+        padding: 20px 0;
     }
     .slider__big {
-        height: 410px;
+        /* height: 440px; */
     }
 }
