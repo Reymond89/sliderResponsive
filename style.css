@@ -87,7 +87,7 @@
 }
 
 /* break points */
-@media screen and (orientation: landscape) and (max-width: 767px){
+ /* @media screen and (orientation: landscape) and (max-width: 767px){
     .slider__big {
     max-height: 229px;
     padding-top: 30px;
@@ -98,9 +98,9 @@
     .slider__small{
         transform: translateY(38%);
     }
-}
+} */
 
-/* @media screen and (max-width: 650px) {
+@media screen and (max-width: 650px) {
     .container{
         width: 90%;
         margin: auto;
@@ -110,26 +110,8 @@
     .slider__big {
         height: 400px;
     }
-} */
+}
 
- /* @media only screen and (max-width: 767px) and (orientation: landscape) {
-    .slider-container {
-      height: 100vh;
-      overflow: hidden;
-    }
-    
-    .slider-container img {
-      height: 100%;
-      width: auto;
-    }
-  }  */
-  
-  /* La primera regla aplica un alto de 100vh y un overflow hidden al contenedor del slider cuando se detecta una orientación landscape en dispositivos móviles. Esto asegurará que las imágenes no se desborden del contenedor.
-  
-  La segunda regla establece una altura del 100% y un ancho automático para las imágenes dentro del contenedor del slider. Esto asegura que las imágenes se ajusten proporcionalmente al alto del contenedor y no se deformen.
-  
-  Con estas reglas CSS, tu slider debería adaptarse correctamente a la orientación landscape en dispositivos móviles sin que las imágenes se desborden. */
-  
   
   
   
