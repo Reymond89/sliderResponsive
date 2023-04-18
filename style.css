@@ -87,6 +87,12 @@
 }
 
 /* break points */
+@media screen and (orientation: landscape) and (max-width: 767px) {
+    .slider__big {
+    
+        height: 380px;
+    }
+}
 
 @media screen and (max-width: 650px) {
     .container{
@@ -99,11 +105,3 @@
         height: 400px;
     }
 }
-@media only screen and (max-width: 800px) and (orientation: landscape) {
-    .slider__big{
-        height: 280px;
-        transform: translateY(13%);
-
-    }
-}
-
