@@ -90,13 +90,13 @@
 @media screen and (orientation: landscape) and (max-width: 767px){
     .slider__big {
     max-height: 229px;
-    padding-top: 135px;
+    padding-top: 30px;
     transform: translateY(24%);
     height: 100%;
     }
 
     .slider__small{
-        transform: translateY(62%);
+        transform: translateY(38%);
     }
 }
 
