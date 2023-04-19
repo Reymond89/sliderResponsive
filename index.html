@@ -10,13 +10,17 @@
 </head>
 <body>
     <div class="container">
-       
+        <div class="modal__big" id="modal__contain">
+            <img class="modal__img" src="images/img1.jpg" alt="">
+            <span onclick="closeImg(this.src)" class="modal__close"><i class="fa-sharp fa-solid fa-circle-xmark" id="close"></i></span>
+        </div>
         <picture class="slider__big">
-            <img class="big__img" src="images/img1.jpg" alt="">
+            <img  class="big__img" src="images/img1.jpg" alt="">
             <div class="btn">
                 <i onclick="back()" class="fa-solid fa-chevron-left"></i>
                 <i onclick="next()" class="fa-solid fa-chevron-right"></i>
             </div>
+            <!-- onclick="openImg(this.src)" -->
             
         </picture>
         <picture class="slider__small">

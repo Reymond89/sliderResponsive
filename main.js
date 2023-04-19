@@ -1,6 +1,26 @@
 
 const bigImg = document.querySelector('.big__img');
 const smallImg = document.querySelectorAll('.small__img');
+const sliderBig = document.querySelector('.slider__big');
+const modalContain = document.getElementById('modal__contain');
+
+const modalImg = document.querySelector('.modal__img');
+const closeImg = document.querySelector('.modal__close');
+
+// 
+
+// sliderBig.addEventListener('click', ()=>{
+//     modalContain.classList.toggle('modal__big');
+//     modalContain.style.display = 'flex';
+//     modalImg.src = bigImg.src;
+    
+// })
+
+
+
+
+
+
 
 smallImg.forEach( small => {
     small.addEventListener('click', function(){
